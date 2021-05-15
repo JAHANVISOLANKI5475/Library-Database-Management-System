@@ -1,0 +1,9 @@
+CREATE TABLE Library_Branch
+(BranchID int PRIMARY KEY NOT NULL
+,BranchName varchar(30)
+,Address varchar(50))
+
+INSERT INTO Library_Branch(BranchID,BranchName, Address) VALUES (1,'Sharpstown','123 Something Cir');
+INSERT INTO Library_Branch(BranchID,BranchName, Address) VALUES (2,'Central','22 XYZ Ave');
+INSERT INTO Library_Branch(BranchID,BranchName, Address) VALUES (3,'Northern','3 ABC Ln');
+INSERT INTO Library_Branch(BranchID,BranchName, Address) VALUES (4,'Southern','19 Cats St');
