@@ -1,14 +1,14 @@
 DECLARE 
-   b_id BOOK_INFO59.BookID%type := 1; 
-   b_name BOOK_INFO59.Title%type; 
-   b_addr BOOK_INFO59.PublisherName%type;  
+   b_id BOOK_INFO.BookID%type := 1; 
+   b_name BOOK_INFO.Title%type; 
+   b_addr BOOK_INFO.PublisherName%type;  
    ex_invalid_id  EXCEPTION; 
 BEGIN 
    IF b_id <= 0 THEN 
       RAISE ex_invalid_id; 
    ELSE 
       SELECT  Title, PublisherName INTO  b_name, b_addr 
-      FROM BOOK_INFO59 
+      FROM BOOK_INFO 
       WHERE BookID = b_id;
       DBMS_OUTPUT.PUT_LINE ('Title: '||  b_name);  
       DBMS_OUTPUT.PUT_LINE ('PublisherName: ' || b_addr); 
