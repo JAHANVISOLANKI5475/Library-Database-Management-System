@@ -1,6 +1,7 @@
 # Library-Database-Management-System
 It is a library databse system with 7 tables that contains information about the books , publishers and customers using SQL.
 Pl-SQL commands such as 
+:
 Triggers :
  Function : If same student comes for new books , then it will ask to return previous books
  Output:
