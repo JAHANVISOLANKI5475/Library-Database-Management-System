@@ -6,4 +6,5 @@ Triggers :
  Function : If same student comes for new books , then it will ask to return previous books
  Output:
  ![image](https://user-images.githubusercontent.com/60638186/119257355-8eef9100-bbe2-11eb-95e1-34d2ba0a8281.png)
+ ,
  Functions , Cursors , Exceptional Handling , Procedures are also executed
